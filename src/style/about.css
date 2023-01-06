@@ -1,0 +1,399 @@
+
+
+.About-Conteiner{
+    height: 100vh;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    }
+    
+    /* title */
+    .all-works h1{
+
+        color: rgb(237, 236, 232);
+        font-size: clamp(0px, 22vw, 250px);
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: -0.05em;
+        line-height: 1;
+        white-space: nowrap;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 0%;
+    }
+    .About-Conteiner .all-works{
+
+    opacity: 1;
+    transform: perspective(1200px) translateX(0px) translateY(0px) scale(1) rotate(0deg) rotateX(0deg) rotateY(0deg) translateZ(0px);
+
+}
+    .About-Conteiner .col-1-sisko {
+   
+        position: relative;
+    overflow: visible;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    grid-auto-rows: min-content;
+    grid-template-rows: repeat(3, min-content);
+    width: 100%;
+    height: min-content;
+    flex: 0 0 auto;
+    gap: 20px;
+    padding: 0px; 
+
+    }
+    
+    
+    .About-Conteiner .sub-col1 {
+        display: flex;
+        width: 100%;
+    
+        border-radius: 24px;
+
+        gap: 20px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 300px;
+        padding: 20px 0;
+        grid-column: auto / span 3;
+        background-color: white;
+        
+
+        width: 100%;
+        height: 305px;
+        inset: auto;
+        flex: 0 0 auto;
+        aspect-ratio: unset;
+
+        box-shadow: rgb(0 0 0 / 4%) 0px 1px 50px 0px;
+    }
+    
+    
+    
+    
+    .About-Conteiner .sub-col2 {
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 24px;
+
+        gap: 20px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 300px;
+   
+        padding-bottom: 20px;
+        box-shadow: rgb(0 0 0 / 4%) 0px 1px 50px 0px;
+    }
+    .About-Conteiner .sub-col3 {
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 24px;
+        grid-column: auto / span 2;
+        gap: 20px;
+        height: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+        min-height: 300px;
+        padding-bottom: 20px;
+        box-shadow: rgb(0 0 0 / 4%) 0px 1px 50px 0px;
+    }
+
+    .About-Conteiner .sub-col4 {
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 24px;
+        grid-column: auto / span 2;
+        gap: 20px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 300px;
+        padding-bottom: 20px;
+      
+        box-shadow: rgb(0 0 0 / 4%) 0px 1px 50px 0px;
+    }
+    .About-Conteiner .sub-col5 {    
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 24px;
+        grid-column: auto / span 2;
+        gap: 20px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 300px;
+       
+        padding-bottom: 20px;
+        box-shadow: rgb(0 0 0 / 4%) 0px 1px 50px 0px;
+    }
+    .About-Conteiner .sub-col6 {    
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 24px;
+
+        gap: 20px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 300px;
+      
+        padding-bottom: 20px;
+        box-shadow: rgb(0 0 0 / 4%) 0px 1px 50px 0px;
+    }
+    .About-Conteiner .sub-col7 {    
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 24px;
+
+        gap: 20px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 300px;
+       
+        padding-bottom: 20px;
+        box-shadow: rgb(0 0 0 / 4%) 0px 1px 50px 0px;
+    }
+    .About-Conteiner .sub-col8 {    
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 24px;
+
+        gap: 20px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 300px;
+        grid-column: auto / span 2;
+        padding-bottom: 20px;
+        box-shadow: rgb(0 0 0 / 4%) 0px 1px 50px 0px;
+    }
+    @media (max-width:1200px) {
+            /* title */
+    .all-works h1{
+
+    
+        font-size: clamp(0px, 22vw, 200px);
+   
+    }
+        .About-Conteiner .col-1-sisko {
+            width: 100%;
+            height: min-content;
+            inset: auto;
+            flex: 0 0 auto;
+            align-self: auto;
+            aspect-ratio: unset;
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(3, minmax(50px, 1fr));
+            grid-auto-rows: min-content;
+            grid-template-rows: repeat(3, min-content);
+            align-items: unset;
+            align-content: unset;
+            gap: 20px;
+            order: 0;
+        }
+        .About-Conteiner .sub-col6 {    
+     
+            grid-column: auto / span 3;
+  
+        }
+        .About-Conteiner .sub-col7 {    
+     
+            grid-column: auto / span 3;
+  
+        }
+        .About-Conteiner .sub-col8 {    
+     
+            grid-column: auto / span 3;
+  
+        }
+    }
+
+    @media (max-width:991px) {
+        .all-works h1{
+
+    
+            font-size: clamp(0px, 22vw, 150px);
+       
+        }
+        .About-Conteiner .col-1-sisko {
+            width: 100%;
+            height: min-content;
+            inset: auto;
+            flex: 0 0 auto;
+            align-self: auto;
+            aspect-ratio: unset;
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(2, minmax(50px, 1fr));
+            grid-auto-rows: min-content;
+            grid-template-rows: repeat(3, min-content);
+            align-items: unset;
+            align-content: unset;
+            gap: 20px;
+            order: 0;
+        }
+        .About-Conteiner .sub-col1 {    
+     
+            grid-column: auto / span 2;
+  
+        }
+        .About-Conteiner .sub-col6 {    
+     
+            grid-column: auto / span 2;
+  
+        }
+        .About-Conteiner .sub-col7 {    
+     
+            grid-column: auto / span 2;
+  
+        }
+        .About-Conteiner .sub-col8 {    
+     
+            grid-column: auto / span 2;
+  
+        }
+
+    }
+    @media (max-width:809px) {
+        .all-works h1{
+
+    
+            font-size: clamp(0px, 22vw, 100px);
+       
+        }
+        .About-Conteiner .col-1-sisko {
+            width: 100%;
+            height: min-content;
+            inset: auto;
+            flex: 0 0 auto;
+            align-self: auto;
+            aspect-ratio: unset;
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(1, minmax(50px, 1fr));
+            grid-auto-rows: min-content;
+            grid-template-rows: repeat(3, min-content);
+            align-items: unset;
+            align-content: unset;
+            gap: 20px;
+            order: 0;
+        }
+        .About-Conteiner .sub-col1 {    
+     
+            grid-column: auto / span 1;
+  
+        }
+        .About-Conteiner .sub-col6 {    
+     
+            grid-column: auto / span 1;
+  
+        }
+        .About-Conteiner .sub-col7 {    
+     
+            grid-column: auto / span 1;
+  
+        }
+        .About-Conteiner .sub-col8 {    
+     
+            grid-column: auto / span 1;
+  
+        }
+        
+    }
+
+    @media (max-width:450px) {
+        .all-works h1{
+
+    
+            font-size: clamp(0px, 22vw, 70px);
+       
+        }
+    }
+ 
+
+    /* Style Grids */
+    .About-Conteiner .sub-col2 .hey {
+        align-items: center;
+ 
+        display: flex;
+        flex-direction: column;
+
+        justify-content: end;
+        padding: 0 30px;
+
+    }
+    .About-Conteiner .sub-col2 h1{
+        padding-top: 60px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+ color: #323232;
+   font-size: 40px;
+  letter-spacing: -2px;
+text-transform: none;
+text-decoration: none;
+line-height: 1.2em;
+text-align:start ;
+word-spacing: 0px;
+
+}
+
+
+/* ///// col 3 */
+
+.about-col3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.about-col3 p{
+font-family: "DM Sans", sans-serif;
+  font-style: normal;
+font-weight: 500;
+ color: #676767;
+font-size: 22px;
+letter-spacing: -1.2px;
+text-transform: none;
+text-decoration: none;
+line-height: 1.2em;
+text-align: start;
+
+}
+.about-col3 h2{
+font-family: "DM Sans", sans-serif;
+font-style: normal;
+font-weight: 700;
+color: #323232;
+font-size: 28px;
+letter-spacing: -1px;
+text-transform: none;
+line-height: 1.2em;
+text-align: start;
+ 
+}

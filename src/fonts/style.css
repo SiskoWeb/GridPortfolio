@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Neue Plak Extended';
+    src: local('Neue Plak Extended Extra Black'), local('Neue-Plak-Extended-Extra-Black'),
+        url('NeuePlak-ExtendedExtraBlack.woff2') format('woff2'),
+        url('NeuePlak-ExtendedExtraBlack.woff') format('woff'),
+        url('NeuePlak-ExtendedExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }

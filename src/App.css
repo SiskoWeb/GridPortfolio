@@ -1,0 +1,29 @@
+
+  body {
+    --main-color: rgb(240, 180, 61);
+    --dark-Bg:rgba(255, 255, 255, 0.04);
+    --links-color: rgb(50, 50, 50);
+    --font-color: rgb(114, 114, 114);
+    --token-06a0f890-aea1-4b2e-b498-f32fe809e7d5: rgb(224, 223, 220);
+    --bg-color: rgb(252, 250, 244);
+    --token-d439dfe7-64eb-46c1-94f6-6b30f3e4ab01: rgb(255, 255, 255);
+height: 100%;
+ 
+    }
+    a{
+      text-decoration: none !important;
+      color: var( --font-color) !important;
+      font-weight: 500
+
+}
+
+  .container-sisko{
+    margin: 0 40px;
+  }
+
+h1{
+    font-weight: 700 !important;
+   
+    font-family: "DM Sans", sans-serif;
+font-style: normal;
+}
