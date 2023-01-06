@@ -1,3 +1,6 @@
+
+Website Under Construction! 50%
+
 # Grid Portfolio
 
 Beautiful, personal portfolio website template to showcase yourself and your work. 
